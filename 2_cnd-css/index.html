@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./public/tailwind.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="flex h-16 items-center justify-between bg-fuchsia-900 font-semibold text-white"
+    >
+      <p
+        class="hover: ms-10 cursor-pointer text-2xl font-bold transition-all ease-in-out hover:scale-125 hover:text-yellow-300"
+      >
+        PhoneBooth
+      </p>
+      <ul class="me-10 flex justify-end space-x-9">
+        <li
+          class="cursor-pointer transition-all hover:scale-125 hover:text-yellow-300"
+        >
+          Home
+        </li>
+        <li
+          class="cursor-pointer transition-all hover:scale-125 hover:text-yellow-300"
+        >
+          About
+        </li>
+        <li
+          class="cursor-pointer transition-all hover:scale-125 hover:text-yellow-300"
+        >
+          Pricing
+        </li>
+        <li
+          class="cursor-pointer transition-all hover:scale-125 hover:text-yellow-300"
+        >
+          Contact US
+        </li>
+        <i
+          class="fa-solid fa-right-to-bracket cursor-pointer text-2xl transition-all hover:scale-125 hover:text-gray-200"
+        ></i>
+      </ul>
+    </nav>
+
+    <main class="box-border flex items-center bg-yellow-50 py-44">
+      <div class="mx-10 w-1/2">
+        <p class="text-6xl font-bold capitalize text-gray-800">
+          The best phone seller
+        </p>
+        <p class="pt-5 text-justify font-semibold text-gray-800">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          consequuntur esse magni atque. Dolorem, quo maiores animi aliquam sunt
+          harum. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Tempora perferendis libero deserunt minus neque voluptate quidem vitae
+          possimus accusamus eveniet?
+        </p>
+        <div class="mt-10 space-x-10">
+          <button
+            class="hover:border-gray-00 animate-bounce rounded-full bg-green-600 px-10 py-2 font-bold text-white transition-all hover:scale-105 hover:border-2 hover:bg-yellow-500 hover:text-gray-800 hover:shadow-xl"
+          >
+            Buy
+          </button>
+          <button
+            class="rounded-full bg-fuchsia-900 px-10 py-2 font-bold text-white transition-all hover:scale-105 hover:border-2 hover:border-gray-700 hover:bg-yellow-500 hover:text-gray-800 hover:shadow-xl"
+          >
+            Sell
+          </button>
+        </div>
+      </div>
+
+      <div class="flex w-1/2 justify-center">
+        <img src="./public/phone-calling.png" alt="" class="w-1/4" />
+      </div>
+    </main>
+  </body>
+</html>
